@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #103510;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.search-box {
+    display: flex;
+}
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.content {
+    padding-top: 100px; /* Adjust according to your header height */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.header {
+    width: 85%;
+}
+
+.header h1 {
+    font-size: 44px;
+    margin: 0;
+}
+.bydvwu{
+    margin-left: 30px;
+    font-size: 32px;
+    margin-top: 5px;
+    color: #099e09;
+    font-weight: bolder;
+}
+
+.paragraph {
+    margin-left: 30px;
+    width: 50%;
+    font-size: 20px;
+}
+
+.button {
+    margin-left: 10%;
+    display: inline-block;
+    background-color: #143a0d;
+    color: #fff;
+    padding: 30px 20px;
+    font-size: 26px;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.bataan {
+    border-radius: 10px;
+    border: 3px solid #000000;
+    position: absolute;
+    top:240px;
+    right: 64px;
+    width: 324px;
+    height: 258px;
+  }
+  .mabalacat {
+        border-radius: 10px;
+        border: 5px solid #000000;
+        position: absolute;
+        top: 90px;
+        right: 264px;
+        width: 250px;
+        height: 200px;
+  }
+  .mansfield {
+    border-radius: 10px;
+    border: 4px solid #000000;
+    position: relative;
+    top: 320px;
+    right: 194px;
+    width: 413px;
+    height: 247px;
+  }
